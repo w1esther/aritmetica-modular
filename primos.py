@@ -1,8 +1,9 @@
+from math import sqrt
 x = int(input('entre com um valor e direi se é primo ou não: '))
 
 lista = []
 
-for n in range(1, x+1):
+for n in range(1, x + 1):
     if x % n == 0:
         lista.append(n)
 
